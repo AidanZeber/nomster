@@ -59,4 +59,7 @@ gem 'will_paginate', '~> 3.0.5'
 #Gem file for simple form 
 gem 'simple_form'
 
+#gem for user authentication 'devise'
+gem 'devise', '>= 3.2.4'
+
 
