@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20160226012054) do
 
   create_table "comments", force: true do |t|
     t.text     "message"
-    t.string   "raitng"
+    t.string   "rating"
     t.integer  "user_id"
     t.integer  "place_id"
     t.datetime "created_at"
