@@ -1,5 +1,6 @@
 class Place < ActiveRecord::Base
 	belongs_to :user
+	has_many :comments
 	validates :name, :length => {minimum:4}, :presence => true
 	validates :address, :length => {minimum: 4}, :presence => true
 	validates :description, :length => {minimum: 4}, :presence => true
