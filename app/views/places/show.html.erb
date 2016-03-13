@@ -89,7 +89,8 @@ function initMap() {
   </div>
 <% end %>
 
-<%= simple_form_for @photo, url: '#' do |p| %>
+<div class="clear"></div>
+<%= simple_form_for @photo, url: place_photos_path(@place) do |p| %>
   <%= p.input :picture %>
   <%= p.input :caption %> 
 <% end %>
