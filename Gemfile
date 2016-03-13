@@ -70,3 +70,6 @@ gem "figaro", ">= 1.0.0"
 
 #gem file for carrierwave
 gem 'carrierwave'
+
+#gem file fog for carrier wave to communicate to AWS S3
+gem "fog", "~>1.3.1"
