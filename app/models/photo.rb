@@ -1,4 +1,2 @@
-class Photo < ActiveRecord: :Base
-  belongs_to :user
-  belongs_to :place
+class Photo < ActiveRecord::Base
 end

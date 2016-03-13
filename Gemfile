@@ -67,3 +67,6 @@ gem "geocoder"
 
 #gem file for figaro
 gem "figaro", ">= 1.0.0"
+
+#gem file for carrierwave
+gem 'carrierwave'
