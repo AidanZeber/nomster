@@ -88,3 +88,8 @@ function initMap() {
 	</blockquote>
   </div>
 <% end %>
+
+<%= simple_form_for @photo, url: '#' do |p| %>
+  <%= p.input :picture %>
+  <%= p.input :caption %> 
+<% end %>
